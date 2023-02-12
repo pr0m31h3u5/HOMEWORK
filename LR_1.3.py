@@ -1,7 +1,6 @@
 import math
-
-print ("sin(30) : ",  math.sin(30))
-print ("sin(0) : ",  math.sin(0))
-print ("sin(-2) : ",  math.sin(-2))
-print ("sin(math.pi) : ",  math.sin(math.pi))
-print ("sin(math.pi/3) : ",  math.sin(math.pi/3))
+n = float(input('Введите градусы угла синуса: '))
+n_rad = n*math.pi/180 
+sinus = math.sin(n_rad) 
+print('Радиан в синусе: ', n_rad)
+print('sin равен: ', sinus)
