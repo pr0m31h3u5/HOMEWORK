@@ -8,4 +8,4 @@ elif a == 6 or a == 7 or a == 8:
 elif a == 9 or a == 10 or a == 11:
     print ('осень')
 else:
-    print ('ты дурак? Пробуй еще раз ')
+    print ('Пробуй еще раз ')
