@@ -2,5 +2,5 @@ R1= float(input("Введите сопротивление первого рез
 R2= float(input("Введите сопротивление второго резистора: "))
 R3= float(input("Введите сопротивление третьего резистора: "))
 common_resistance = R1 + R2 + R3 
-parallel_resistance = 3
+parallel_resistance = 1/(1/R1+1/R2+1/R3)
 print("общее сопротивление при последовательном подключении: ",common_resistance, "Ом", "общее сопротивление при параллельном подключении: ", parallel_resistance, "Ом")
